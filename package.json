@@ -26,6 +26,16 @@
       "default": "./dist/es/side-effects.js"
     }
   },
+  "typesVersions": {
+    "*": {
+      "pure": [
+        "./dist/es/pure.d.ts"
+      ],
+      "side-effects": [
+        "./dist/es/side-effects.d.ts"
+      ]
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Sec-ant/barcode-detector"
